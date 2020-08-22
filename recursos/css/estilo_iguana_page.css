@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+/*Comienzo de nav encabezado*/
+
+
+.encabezado_h1 {
+  position: fixed;
+  width: 100%;
+  font-weight: 500;
+  font-size: 3.125rem;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.encabezado_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.encabezado_img img {
+  width: 100%;
+  margin-top: 4%;
+}
+
+/*Termino de nav encabezado*/
+/*Comienzo de div desc-section*/
+.desc-section {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+.desc_section-texto {
+  width: 25%;
+  margin-right: 7%;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: middle;
+  white-space: normal;
+  font-weight: 500;
+  padding: 3% 0 3% 8%;
+  font-size: 1em;
+}
+
+.icons_section-h3{
+  font-weight: 300;
+}
+
+.desc_section-img {
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.desc_section-img img {
+  margin: 7%;
+  width: 70%;
+}
+
+/*Termino de div desc-section*/
+/*Comienzo de section icons_section*/
+.icons-section {
+  background-color: #1e1a13;
+  color: #ffffff;
+  padding: 5% 5% 5% 5%;
+}
+
+.icons_section-article {
+  display: inline-block;
+  width: 30%;
+  margin-top: 5%;
+
+}
+
+.icons_section-titulo {
+  font-weight: 500;
+  font-size: 2em;
+
+}
+
+.icons_section-link i {
+  color: #ffffff;
+}
+
+.icons_section-article h3 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+/*Termino de seccion icons_section*/
+/*comienzo de img-section contenedor div*/
+.img_section {
+ white-space: nowrap;
+ background-color: #000000;
+}
+
+.img_section-img {
+display: inline-block;
+text-align: center;
+padding: 4% 1%;
+}
+.img_section-img img{
+  width: 300px;
+  height: 300px;
+}
+
+/*termino de img-section contenedor div*/
+
+
+.footer {
+  letter-spacing: 0.099em;
+  background-color: #1e1a13;
+
+}
+.footer_text{
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+.footer_parrafo{
+  font-weight: 300;
+  font-size: 2em;
+}
